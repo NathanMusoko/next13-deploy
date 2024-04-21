@@ -63,7 +63,7 @@ export default function Services(){
                         <FaArrowRight className={styles.link_icon}></FaArrowRight>
                     </a>
 
-                    <Image src={shapeTwo} className={`${styles.shape} ${styles.c_shape}`}/>
+                    <Image src={shapeTwo} className={`${styles.shape} ${styles.c_shape}`} alt='Shapetwo'/>
                 </SwiperSlide>
             })}
         </Swiper>
