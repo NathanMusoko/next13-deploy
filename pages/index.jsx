@@ -38,7 +38,7 @@ export default function Home() {
             </p>
         </div>
         <p className={styles.home_text}>
-        I'm a passionate and creative web developer with expertise in both frontend and backend technologies. 
+        I&apos;m a passionate and creative web developer with expertise in both frontend and backend technologies. 
         Proficient in HTML, CSS, JavaScript, React, and Node.js, I thrive on solving complex technical challenges. 
         With a keen eye for detail, I deliver clean, efficient, and well-documented code. 
         A strong team player, I excel in collaborative environments and am always eager to learn and grow in the ever-evolving field of web development
