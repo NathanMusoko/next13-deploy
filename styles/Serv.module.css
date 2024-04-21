@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+.section_title,
+.section_subtitle {
+    text-align: center;
+}
+
+.section_title{
+    font-size: 44px;
+    font-family: 'Jost', sans-serif;
+}
+
+.section_subtitle{
+    color: #29a385;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.section_subtitle span{
+    font-family: 'Caveat', cursive;
+    color: #ffffff;
+    font-size: 28px;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+
+.services {
+    background-color: #212730;
+    min-height: 100vh;
+    padding: 0 80px;
+}
+.services_subtitle {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 65px;
+    display: block;
+}
+.text_cs {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col__3 {
+    margin: 10px;
+    width: 25em;
+}
+
+.service__box {
+    border-radius: 10px;
+    background-color: #191919;
+    padding: 55px;
+    transition: 0.4s ease;
+    width: 100%;
+    height: 25rem;
+}
+
+.service__box:hover {
+    transform: translateY(5px);
+    background-image: linear-gradient(90deg, #29a385, #29a385);
+}
+
+.service__box:hover .icon {
+    color: #fff;
+}
+
+.service__box:hover p.service__text .p__color {
+    color: #fff !important;
+}
+
+.icon {
+    font-size: 54px;
+    font-weight: 400;
+    margin-bottom: 23px;
+    display: inline-flex;
+    color: #29a385;
+}
+
+p.service__text.p__color {
+    margin-bottom: 0;
+}
+
+h1.service__text {
+    font-size: 19px;
+    font-family: Poppins, sans-serif;
+    padding: 10px 0px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .service__box {
+        padding: 32px;
+    }
+    .section_title{
+        font-size: 25px;
+    }
+    .section_subtitle{
+        font-size: 10px;
+    }
+    .section_subtitle span{
+        font-size: 20px;
+    }
+    .col__3 {
+        margin: 2px;
+        width: 20em;
+    }
+}

@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+export default {
   reactStrictMode: true,
+  images: {
+    domains: ['img.pokemondb.net']
+  }
 }
-
-module.exports = nextConfig
