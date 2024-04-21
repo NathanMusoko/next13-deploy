@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from '../styles/Index.module.css'
 import profileImg from '../assets/profile.jpg'
+import Link from "next/link";
 import { FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa'
 
 export default function Home() {
@@ -55,8 +56,8 @@ export default function Home() {
             </a>
         </div>
         <div className={styles.home_btns}>
-            <a href="/CVNathan.pdf" download="CVNathan.pdf" className={`${styles.btn} ${styles.text_cs}`}>Download CV</a>
-            <a href="/skills" className={`${styles.hero_link} ${styles.text_cs}`}>My Skills</a>
+            <Link href="/CVNathan.pdf" download="CVNathan.pdf" className={`${styles.btn} ${styles.text_cs}`}>Download CV</Link>
+            <Link href="/skills" className={`${styles.hero_link} ${styles.text_cs}`}>My Skills</Link>
         </div>
     </div>
   </section>

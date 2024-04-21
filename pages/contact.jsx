@@ -74,7 +74,7 @@ export default function Conatct() {
     return <section className={`${styles.contact} ${styles.section}`}>
         <h2 className={`${styles.section_title} ${styles.text_cs}`}>Contact Me</h2>
         <p className={styles.section_subtitle}>
-            Let's <span>Talk Ideas</span>
+            Let&apos;s <span>Talk Ideas</span>
         </p>
 
         <div className={styles.container}>
@@ -82,7 +82,7 @@ export default function Conatct() {
             <Image src={shape} className={styles.square} alt="shape" />
             <div className={styles.form}>
                 <div className={styles.contact_info}>
-                    <h3 className={styles.title}>Let's get in touch</h3>
+                    <h3 className={styles.title}>Let&apos;s get in touch</h3>
                     <p className={styles.text}>
                         I would be delighted to discuss your ideas and projects. Feel free to contact me with any questions or inquiries.
                     </p>

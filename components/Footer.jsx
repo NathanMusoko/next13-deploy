@@ -1,4 +1,5 @@
 import styles from '../styles/Footer.module.css'
+import Link from 'next/link';
 
 export default function Footer() {
     return (
@@ -12,11 +13,21 @@ export default function Footer() {
                     <div className={styles.footerSection}>
                         <h3 className={styles.sectionTitle}>Liens rapides</h3>
                         <ul className={styles.quickLinks}>
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/serv">Services</a></li>
-                            <li><a href="/skills">Skills</a></li>
-                            <li><a href="/portfolio">Portfolio</a></li>
-                            <li><a href="/contact">Contact</a></li>
+                            <li>
+                                <Link href='/'>HOME</Link>
+                            </li>
+                            <li>
+                                <Link href='/serv'>SERVICES</Link>
+                            </li>
+                            <li>
+                                <Link href='/skills'>SKILLS</Link>
+                            </li>
+                            <li>
+                                <Link href='/portfolio'>PORTFOLIO</Link>
+                            </li>
+                            <li>
+                                <Link href='/contact'>CONTACT</Link>
+                            </li>
                         </ul>
                     </div>
                     <div className={styles.footerSection}>
