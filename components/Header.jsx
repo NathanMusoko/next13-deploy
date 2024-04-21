@@ -54,13 +54,13 @@ export default function Header(){
                             <Link href='/contact' className={`${styles.nav_link} ${styles.text_cs}`}>CONTACT</Link>
                         </li>
                         <div className={styles.header_socials}>
-                            <a href="" className={styles.header_social_link}>
+                            <a href="https://www.linkedin.com/in/nathan-musoko-3030a424a/" className={styles.header_social_link}>
                                 <FaTwitter/>
                             </a>
-                            <a href="" className={styles.header_social_link}>
+                            <a href="https://www.linkedin.com/in/nathan-musoko-3030a424a/" className={styles.header_social_link}>
                                 <FaInstagram/>
                             </a>
-                            <a href="" className={styles.header_social_link}>
+                            <a href="https://www.linkedin.com/in/nathan-musoko-3030a424a/" className={styles.header_social_link}>
                                 <FaLinkedin/>
                             </a>
                         </div>

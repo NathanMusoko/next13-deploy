@@ -1,9 +1,6 @@
 import Image from "next/image";
 import styles from '../styles/Index.module.css'
 import profileImg from '../assets/profile.jpg'
-import shapeOne from '../assets/shape-1.png'
-import shapeTwo from '../assets/shape-2.png'
-
 import { FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa'
 
 export default function Home() {
@@ -47,13 +44,13 @@ export default function Home() {
         A strong team player, I excel in collaborative environments and am always eager to learn and grow in the ever-evolving field of web development
         </p>
         <div className={styles.home_socials}>
-            <a href="" className={styles.home_social_link}>
+            <a href="https://www.linkedin.com/in/nathan-musoko-3030a424a/" className={styles.home_social_link}>
                 <FaTwitter/>
             </a>
-            <a href="" className={styles.home_social_link}>
+            <a href="https://www.linkedin.com/in/nathan-musoko-3030a424a/" className={styles.home_social_link}>
                 <FaInstagram/>
             </a>
-            <a href="" className={styles.home_social_link}>
+            <a href="https://www.linkedin.com/in/nathan-musoko-3030a424a/" className={styles.home_social_link}>
                 <FaLinkedin/>
             </a>
         </div>
