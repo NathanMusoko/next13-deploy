@@ -1,5 +1,7 @@
 import styles from '../styles/Skills.module.css'
-import { skills } from './Data'
+import Data from './Data'
+
+const skills = Data().projects;
 
 export default function Skills(){
     return <section className={`${styles.skills} ${styles.section}`}>

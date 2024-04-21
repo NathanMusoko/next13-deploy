@@ -1,7 +1,9 @@
 import React from "react";
 import styles from '../styles/Serv.module.css';
 import Image from "next/image";
-import { services } from './Data';
+import Data from "./Data";
+
+const services = Data().services;
 
 function Service() {
     return (

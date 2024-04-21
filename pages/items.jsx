@@ -1,5 +1,6 @@
 import styles from '../styles/Portfolio.module.css'
 import Image from 'next/image';
+import Link from 'next/link';
 import {FaArrowRight} from 'react-icons/fa';
 import {motion} from 'framer-motion'
 
@@ -22,10 +23,10 @@ export default function Items({projectItems}){
                 <h3 className={styles.portfolio_title}>{title}</h3>
                 <p className={styles.portfolio_description}>{description}</p>
 
-                <a href="" className={styles.link}>
+                <Link href="" className={styles.link}>
                     See Pricing
                     <FaArrowRight className={styles.link_icon}></FaArrowRight>
-                </a>
+                </Link>
             </motion.div>
         })}
     </>

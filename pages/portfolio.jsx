@@ -1,9 +1,11 @@
 import styles from '../styles/Portfolio.module.css'
 import List from './list';
 import Items from './items';
-import { projects } from './Data';
+import Data from './Data';
 import { useState } from 'react';
 import { AnimatePresence } from 'framer-motion';
+
+const projects = Data().skills;
 
 const allNavList = [
     'all', 

@@ -14,19 +14,19 @@ export default function Footer() {
                         <h3 className={styles.sectionTitle}>Liens rapides</h3>
                         <ul className={styles.quickLinks}>
                             <li>
-                                <Link href='/'>HOME</Link>
+                                <Link href='/'>Home</Link>
                             </li>
                             <li>
-                                <Link href='/serv'>SERVICES</Link>
+                                <Link href='/serv'>Services</Link>
                             </li>
                             <li>
-                                <Link href='/skills'>SKILLS</Link>
+                                <Link href='/skills'>Skills</Link>
                             </li>
                             <li>
-                                <Link href='/portfolio'>PORTFOLIO</Link>
+                                <Link href='/portfolio'>Porfolio</Link>
                             </li>
                             <li>
-                                <Link href='/contact'>CONTACT</Link>
+                                <Link href='/contact'>Contact</Link>
                             </li>
                         </ul>
                     </div>
