@@ -7,11 +7,11 @@ export default function Footer() {
             <div className={styles.container}>
                 <div className={styles.footerContent}>
                     <div className={styles.footerSection}>
-                        <h3 className={styles.sectionTitle}>À propos</h3>
-                        <p>Découvrez mon portfolio et explorez mes compétences en développement web.</p>
+                        <h3 className={styles.sectionTitle}>About</h3>
+                        <p>Explore my portfolio and discover my skills in web development.</p>
                     </div>
                     <div className={styles.footerSection}>
-                        <h3 className={styles.sectionTitle}>Liens rapides</h3>
+                        <h3 className={styles.sectionTitle}>Quick Links</h3>
                         <ul className={styles.quickLinks}>
                             <li>
                                 <Link href='/'>Home</Link>
@@ -31,13 +31,13 @@ export default function Footer() {
                         </ul>
                     </div>
                     <div className={styles.footerSection}>
-                        <h3 className={styles.sectionTitle}>Contactez-moi</h3>
+                        <h3 className={styles.sectionTitle}>Contact Me</h3>
                         <p>Email: qualitechoisie13@gmail.com</p>
                         <p>Téléphone: +123 456 789</p>
                     </div>
                 </div>
                 <div className={styles.footerBottom}>
-                    <p>&copy; 2024 Mon Portfolio. Tous droits réservés.</p>
+                    <p>&copy;MUSOKO 2024 My Portfolio. All rights reserved.</p>
                 </div>
             </div>
         </footer>

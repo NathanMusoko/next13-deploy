@@ -16,7 +16,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.home_job}>
-            <span className={styles.text_cs}>I Am</span> <b>Web Developer</b>
+            <span className={styles.text_cs}>I Am</span> <b>A Web Developer</b>
         </p>
         <div className={styles.home_img_wrapper}>
             <div className={styles.home_banner}>
@@ -42,7 +42,6 @@ export default function Home() {
         I&apos;m a passionate and creative web developer with expertise in both frontend and backend technologies. 
         Proficient in HTML, CSS, JavaScript, React, and Node.js, I thrive on solving complex technical challenges. 
         With a keen eye for detail, I deliver clean, efficient, and well-documented code. 
-        A strong team player, I excel in collaborative environments and am always eager to learn and grow in the ever-evolving field of web development
         </p>
         <div className={styles.home_socials}>
             <a href="https://www.linkedin.com/in/nathan-musoko-3030a424a/" className={styles.home_social_link}>

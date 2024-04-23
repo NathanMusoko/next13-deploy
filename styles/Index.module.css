@@ -243,7 +243,7 @@
     }
 
     .home {
-        padding-top: 140px;
+        padding-top: 100px;
     }
 
     .home_profile {
@@ -265,8 +265,8 @@
         transform: initial;
         right: initial;
         margin-inline: auto;
-        margin-top: 140px;
-        margin-bottom: 110px;
+        margin-top: 110px;
+        margin-bottom: 100px;
         padding: 30px 0;
     }
 

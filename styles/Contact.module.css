@@ -384,12 +384,12 @@
 
 @media screen and (max-width: 1200px) {
   .section_title{
-      font-size: 25px;
+      font-size: 20px;
   }
   .section_subtitle{
       font-size: 10px;
   }
   .section_subtitle span{
-      font-size: 20px;
+      font-size: 17px;
   }
 }

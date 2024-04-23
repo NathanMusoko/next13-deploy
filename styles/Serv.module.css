@@ -49,8 +49,11 @@
 }
 
 .col__3 {
-    margin: 10px;
-    width: 25em;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 90%;
+    max-width: 400px;
 }
 
 .service__box {
@@ -93,21 +96,23 @@ h1.service__text {
     padding: 10px 0px;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1200px) {
     .service__box {
-        padding: 32px;
+        padding: 20px;
     }
     .section_title{
-        font-size: 25px;
+        font-size: 20px;
     }
     .section_subtitle{
         font-size: 10px;
     }
     .section_subtitle span{
-        font-size: 20px;
+        font-size: 17px;
     }
-    .col__3 {
-        margin: 2px;
-        width: 20em;
+    .row{
+        margin: auto;
+        margin-bottom: 5px;
+        width: 100%;
+        max-width: none;
     }
 }
