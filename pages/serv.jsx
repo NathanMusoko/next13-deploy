@@ -1,7 +1,7 @@
 import React from "react";
 import styles from '../styles/Serv.module.css';
 import Image from "next/image";
-import Data from "./Data";
+import Data from "../datalist/Data";
 
 const services = Data().services;
 

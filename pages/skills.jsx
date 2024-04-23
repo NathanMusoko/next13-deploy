@@ -1,5 +1,5 @@
 import styles from '../styles/Skills.module.css'
-import Data from './Data'
+import Data from '../datalist/Data'
 
 const skills = Data().projects;
 

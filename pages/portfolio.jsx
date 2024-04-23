@@ -1,7 +1,7 @@
 import styles from '../styles/Portfolio.module.css'
-import List from './list';
-import Items from './items';
-import Data from './Data';
+import List from '../datalist/list';
+import Items from '../datalist/items';
+import Data from '../datalist/Data';
 import { useState } from 'react';
 import { AnimatePresence } from 'framer-motion';
 

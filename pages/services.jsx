@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import styles from '../styles/Services.module.css';
-import Data from './Data';
+import Data from '../datalist/Data';
 import { FaArrowRight } from 'react-icons/fa';
 import shapeTwo from '../assets/shape-2.png';
 
