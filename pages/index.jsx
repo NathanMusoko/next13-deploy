@@ -5,6 +5,7 @@ import Link from "next/link";
 import { FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa'
 
 export default function Home() {
+    
     return <section className={styles.home}>
     <div className={`${styles.home_container} ${styles.container}`}>
         <p className={`${styles.home_subtitle} ${styles.text_cs}`}>
