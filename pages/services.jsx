@@ -66,8 +66,6 @@ export default function Services() {
             See Pricing
             <FaArrowRight className={styles.link_icon}></FaArrowRight>
           </a>
-
-          <Image src={shapeTwo} className={`${styles.shape} ${styles.c_shape}`} alt='Shapetwo' />
         </SwiperSlide>
       })}
     </Swiper>
