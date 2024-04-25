@@ -53,7 +53,7 @@ export default function Header() {
                             </li>
                             <li>
                                 <Link href="/services" className={`${styles.nav_link} ${styles.text_cs}`} onClick={handleLinkClick}>
-                                    SERVICES
+                                    SERVICE
                                 </Link>
                             </li>
                             <li>
