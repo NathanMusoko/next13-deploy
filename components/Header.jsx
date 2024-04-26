@@ -41,7 +41,7 @@ export default function Header() {
         <header className={`${scrollNav ? `${styles.scroll_header}` : ""} ${styles.header}`}>
             <nav className={styles.nav}>
                 <Link href="/" className={`${styles.nav_logo} ${styles.text_cs}`}>
-                    NATHAN
+                    N<span>A</span>T<span>H</span>A<span>N</span>
                 </Link>
                 <div className={`${showMenu ? `${styles.nav_menu} ${styles.show_menu}` : styles.nav_menu}`}>
                     <div className={styles.nav_data}>
@@ -49,6 +49,11 @@ export default function Header() {
                             <li>
                                 <Link href="/" className={`${styles.nav_link} ${styles.text_cs}`} onClick={handleLinkClick}>
                                     HOME
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/services" className={`${styles.nav_link} ${styles.text_cs}`} onClick={handleLinkClick}>
+                                    SERVICES
                                 </Link>
                             </li>
                             <li>
