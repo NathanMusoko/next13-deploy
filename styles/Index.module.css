@@ -52,7 +52,7 @@
 /* Style pour le titre */
 .home_title {
     font-family: Arial, sans-serif;
-    font-size: 24px;
+    font-size: 48px;
     color: #fff;
     white-space: nowrap;
     overflow: hidden;
@@ -303,5 +303,18 @@
         transform: translateX(-50%);
         width: 2px;
         height: 40px;
+    }
+    .home_title {
+        font-size: 30px;
+        animation: typing 5s steps(12) infinite;
+    }
+    @keyframes typing {
+        0% {
+            width: 0;
+        }
+    
+        100% {
+            width: 100%;
+        }
     }
 }
