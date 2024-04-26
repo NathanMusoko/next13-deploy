@@ -52,11 +52,6 @@ export default function Header() {
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/services" className={`${styles.nav_link} ${styles.text_cs}`} onClick={handleLinkClick}>
-                                    SERVICE
-                                </Link>
-                            </li>
-                            <li>
                                 <Link href="/skills" className={`${styles.nav_link} ${styles.text_cs}`} onClick={handleLinkClick}>
                                     SKILLS
                                 </Link>
