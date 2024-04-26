@@ -141,7 +141,7 @@ const Data = () => {
       name: 'HTML',
       percentage: 85,
       description:
-        `Le langage de balisage standard pour la création de pages Web. Il définit la structure et le contenu des pages Web à l'aide de balises.`,
+        `HTML is the standard markup language for creating web pages and web applications. It defines the structure and content of a web page using a variety of elements and tags. HTML documents are interpreted by web browsers to render text, images, and multimedia content on the screen.`,
     },
 
     {
@@ -149,7 +149,7 @@ const Data = () => {
       name: 'JavaScript',
       percentage: 75,
       description:
-        `Un langage de programmation polyvalent et populaire utilisé pour créer des fonctionnalités interactives sur les sites Web. Il peut être utilisé pour la manipulation du DOM, les animations, les requêtes AJAX, et bien plus encore.`,
+        `JavaScript is a versatile programming language commonly used for building interactive and dynamic web applications. It enables developers to add functionality to web pages, manipulate the content of a webpage, respond to user actions, and create engaging user interfaces.`,
     },
 
     {
@@ -157,7 +157,7 @@ const Data = () => {
       name: 'CSS',
       percentage: 90,
       description:
-        `Un langage de feuille de style utilisé pour définir la présentation visuelle des pages Web. Il permet de styliser le contenu HTML en définissant des règles de style telles que les couleurs, les polices, les marges et les arrière-plans.`,
+        `CSS is a style sheet language used to define the presentation and layout of HTML documents. It allows developers to control the visual appearance of web pages, including fonts, colors, spacing, positioning, and responsiveness. CSS works by applying styles to HTML elements using selectors and declarations.`,
     },
 
     {
@@ -165,7 +165,7 @@ const Data = () => {
       name: 'Swift',
       percentage: 75,
       description:
-        ` Un langage de programmation développé par Apple pour créer des applications iOS, macOS, watchOS et tvOS. Il est moderne, sûr et performant, et est largement utilisé pour le développement d'applications sur les plateformes Apple.`,
+        `Swift is a powerful and intuitive programming language developed by Apple for building iOS, macOS, watchOS, and tvOS applications. It is designed to be fast, safe, and expressive, with a syntax that is easy to read and write. Swift offers modern features such as optionals, type inference, closures, and protocols, making it a preferred choice for iOS and macOS developers.`,
     },
 
     {
@@ -173,7 +173,7 @@ const Data = () => {
       name: 'React',
       percentage: 70,
       description:
-        `Une bibliothèque JavaScript open-source développée par Facebook pour la construction d'interfaces utilisateur interactives. Elle permet de créer des composants réutilisables et de construire des applications Web dynamiques à l'aide d'un paradigme de programmation déclaratif.`,
+        `React is a JavaScript library for building user interfaces, particularly single-page applications. Developed by Facebook, React allows developers to create reusable UI components that update efficiently in response to data changes. It follows a component-based architecture and uses a virtual DOM for optimal performance.`,
     },
 
     {
@@ -181,7 +181,7 @@ const Data = () => {
       name: 'Java',
       percentage: 80,
       description:
-        `Un langage de programmation polyvalent et robuste largement utilisé pour le développement d'applications logicielles, en particulier pour les applications d'entreprise, les applications Android et les applications Web. Il est connu pour sa portabilité, sa performance et sa sécurité.`,
+        `Java is a widely-used, high-level programming language known for its platform independence and versatility. It is commonly used for developing desktop, web, and mobile applications, as well as enterprise-scale software solutions. Java applications run on the Java Virtual Machine (JVM), which enables them to be executed on any platform that supports Java, without needing to be recompiled.`,
     },],
 
     cv: [{

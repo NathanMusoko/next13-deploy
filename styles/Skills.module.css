@@ -46,6 +46,7 @@
 .skills_container{
     grid-template-columns: repeat(3, 1fr);
     row-gap: 70px;
+    padding-bottom: 20px;
 }
 .skills_titles,
 .skills_description {
