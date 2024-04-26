@@ -141,7 +141,7 @@ const Data = () => {
       name: 'HTML',
       percentage: 85,
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        `Le langage de balisage standard pour la création de pages Web. Il définit la structure et le contenu des pages Web à l'aide de balises.`,
     },
 
     {
@@ -149,7 +149,7 @@ const Data = () => {
       name: 'JavaScript',
       percentage: 75,
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        `Un langage de programmation polyvalent et populaire utilisé pour créer des fonctionnalités interactives sur les sites Web. Il peut être utilisé pour la manipulation du DOM, les animations, les requêtes AJAX, et bien plus encore.`,
     },
 
     {
@@ -157,7 +157,7 @@ const Data = () => {
       name: 'CSS',
       percentage: 90,
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        `Un langage de feuille de style utilisé pour définir la présentation visuelle des pages Web. Il permet de styliser le contenu HTML en définissant des règles de style telles que les couleurs, les polices, les marges et les arrière-plans.`,
     },
 
     {
@@ -165,7 +165,7 @@ const Data = () => {
       name: 'Swift',
       percentage: 75,
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        ` Un langage de programmation développé par Apple pour créer des applications iOS, macOS, watchOS et tvOS. Il est moderne, sûr et performant, et est largement utilisé pour le développement d'applications sur les plateformes Apple.`,
     },
 
     {
@@ -173,7 +173,7 @@ const Data = () => {
       name: 'React',
       percentage: 70,
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        `Une bibliothèque JavaScript open-source développée par Facebook pour la construction d'interfaces utilisateur interactives. Elle permet de créer des composants réutilisables et de construire des applications Web dynamiques à l'aide d'un paradigme de programmation déclaratif.`,
     },
 
     {
@@ -181,7 +181,7 @@ const Data = () => {
       name: 'Java',
       percentage: 80,
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        `Un langage de programmation polyvalent et robuste largement utilisé pour le développement d'applications logicielles, en particulier pour les applications d'entreprise, les applications Android et les applications Web. Il est connu pour sa portabilité, sa performance et sa sécurité.`,
     },],
 
     cv: [{

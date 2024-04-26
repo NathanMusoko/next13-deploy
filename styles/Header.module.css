@@ -159,7 +159,7 @@
 
 .nav_logo span {
     font-weight: bold;
-    color: #ff9900;
+    color: #00ffbb;
 }
 
 @keyframes fadeIn {
@@ -194,7 +194,7 @@
 
 @media screen and (max-width: 1200px) {
     .nav_logo {
-        font-size: 22px;
+        font-size: 20px;
         letter-spacing: 1px;
     }
 }
