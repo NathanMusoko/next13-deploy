@@ -4,7 +4,7 @@ import profileImg from '../assets/bgprofile.jpg'
 import Link from "next/link";
 import { FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa'
 import Service from "../components/service/Service";
-import Skill from "../components/skill/skill";
+import Skills from "../components/skill/Skill";
 import Porfolios from "../components/portfolio/Portfolio";
 import Contact from "../components/contact/Contact";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -91,7 +91,7 @@ export default function Home() {
             </Element>
 
             <Element name="skills">
-                <Skill />
+                <Skills />
             </Element>
 
             <Element name="portfolio">
