@@ -1,4 +1,4 @@
-import Skills from "../components/skill/skill";
+import Skills from "../components/skill/Skill";
 import Head from "next/head";
 
 export default function Skill() {
