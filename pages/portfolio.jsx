@@ -1,4 +1,4 @@
-import Porfolios from "../components/portfolio/portfolio";
+import Porfolios from "../components/portfolio/Portfolio";
 import Head from "next/head";
 
 export default function Porfolio() {

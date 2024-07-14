@@ -1,4 +1,4 @@
-import Services from "../components/service/service";
+import Services from "../components/service/Service";
 import Head from "next/head";
 
 export default function Service() {

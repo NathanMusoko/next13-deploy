@@ -3,9 +3,9 @@ import styles from '../styles/Index.module.css'
 import profileImg from '../assets/bgprofile.jpg'
 import Link from "next/link";
 import { FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa'
-import Service from "../components/service/service";
+import Service from "../components/service/Service";
 import Skill from "../components/skill/skill";
-import Porfolio from "../components/portfolio/portfolio";
+import Porfolios from "../components/portfolio/Portfolio";
 import Contact from "../components/contact/Contact";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
@@ -95,7 +95,7 @@ export default function Home() {
             </Element>
 
             <Element name="portfolio">
-                <Porfolio />
+                <Porfolios />
             </Element>
 
             <Element name="contact">
