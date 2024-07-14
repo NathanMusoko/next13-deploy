@@ -1,36 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
-
-.section_title,
-.section_subtitle {
-    text-align: center;
+.container{
+    max-width: 980px;
+    margin: 0 auto;
+    text-align: justify;
+    color: #757575;
+    padding-top: 100px;
+    padding-bottom: 64px;
+    font-family: inherit;
 }
-
-.section_title{
-    font-size: 44px;
-    font-family: 'Jost', sans-serif;
-}
-
-.section_subtitle{
-    color: #29a385;
-    font-size: 14px;
-    text-transform: uppercase;
-    font-weight: 700;
-    margin-bottom: 60px;
-}
-
-.section_subtitle span{
-    font-family: 'Caveat', cursive;
-    color: #ffffff;
-    font-size: 28px;
-    text-transform: capitalize;
-    margin-left: 10px;
-}
-
 .services {
     background-color: #212730;
     min-height: 100vh;
     padding: 0 80px;
 }
+
 .services_subtitle {
     color: #ffffff;
     font-size: 13px;
@@ -38,6 +20,7 @@
     margin-bottom: 65px;
     display: block;
 }
+
 .text_cs {
     text-transform: uppercase;
     letter-spacing: 0.05em;
@@ -49,29 +32,25 @@
 }
 
 .col__3 {
-    margin: auto;
-    margin-bottom: 20px;
-    padding: 10px;
-    width: 90%;
-    max-width: 400px;
+    flex: 49%;
+    max-width: 100%;
+    padding: 16px;
 }
 
 .service__box {
-    border-radius: 10px;
-    background-color: #191919;
+    border-radius: 0px;
+    background-color: #adc8f4;
+    color: #000;
     padding: 55px;
-    transition: 0.4s ease;
     width: 100%;
-    height: 25rem;
+    height: 30rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
 .service__box:hover {
-    transform: translateY(5px);
-    background-image: linear-gradient(90deg, #29a385, #29a385);
-}
-
-.service__box:hover .icon {
-    color: #fff;
+    transform: rotate(3deg);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    background-color: #90a6c8;
 }
 
 .service__box:hover p.service__text .p__color {
@@ -83,7 +62,6 @@
     font-weight: 400;
     margin-bottom: 23px;
     display: inline-flex;
-    color: #29a385;
 }
 
 p.service__text.p__color {
@@ -100,19 +78,27 @@ h1.service__text {
     .service__box {
         padding: 20px;
     }
-    .section_title{
+
+    .section_title {
         font-size: 20px;
     }
-    .section_subtitle{
+
+    .section_subtitle {
         font-size: 10px;
     }
-    .section_subtitle span{
+
+    .section_subtitle span {
         font-size: 17px;
     }
-    .row{
+
+    .row {
         margin: auto;
         margin-bottom: 5px;
         width: 100%;
         max-width: none;
+    }
+    .col__3 {
+        flex: 100%;
+        max-width: 100%;
     }
 }

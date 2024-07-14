@@ -59,7 +59,7 @@ const Data = () => {
       name: 'Web Development',
       title: 'Web Design & Logo',
       description:
-        'Web designers craft the overall vision & plan for a website layout. Professional logo development: Business, Company, or Personal.',
+        'Web designers craft the overall vision & plan for a website layout, ensuring a user-friendly interface and engaging user experience. Professional logo development: Business, Company, or Personal, tailored to reflect your brand identity and values.',
       image: web,
     },
     {
@@ -67,7 +67,7 @@ const Data = () => {
       name: ' Apps Development ',
       title: ' iOS & Android ',
       description:
-        'Design Software applications to run on mobile devices. Modern and mobile-ready application that will help you reach all of your marketing.',
+        'Design software applications to run on mobile devices. Modern and mobile-ready applications that will help you reach all of your marketing goals. From initial concept to launch, we ensure your app is intuitive, functional, and visually appealing.',
       image: apps,
     },
     {
@@ -75,15 +75,15 @@ const Data = () => {
       name: ' Game Development ',
       title: ' Unity & Unreal Engine ',
       description:
-        ' Creating games & describes the design, development and release of a game. Developing unique mobile android and ios games. ',
+        ' Creating games & describes the design, development, and release of a game. Developing unique mobile Android and iOS games. We bring your game ideas to life with immersive graphics, engaging gameplay, and smooth performance across devices.',
       image: game,
     },
     {
       id: 4,
-      name: ' Advertising ',
-      title: ' Google Ads ',
+      name: ' Desktop Development ',
+      title: ' macOS & Windows ',
       description:
-        ' Advertising services include: Google search result pages, gmails, YouTube and other websites participated in Google Ads program. ',
+        ' Developing robust desktop applications that provide powerful functionality and seamless integration with your existing systems. Our desktop applications are designed for performance, security, and scalability to meet your business needs.',
       image: ads,
     },],
 

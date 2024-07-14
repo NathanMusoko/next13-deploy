@@ -1,45 +1,19 @@
-import styles from '../styles/Portfolio.module.css'
-import List from '../datalist/list';
-import Items from '../datalist/items';
-import Data from '../datalist/Data';
-import { useState } from 'react';
-import { AnimatePresence } from 'framer-motion';
+import Porfolios from "../components/portfolio/portfolio";
+import Head from "next/head";
 
-const projects = Data().skills;
+export default function Porfolio() {
 
-const allNavList = [
-    'all', 
-    ...new Set(projects.map((project) => project.category))
-];
 
-export default function Porfolio(){
+    return <>
+        <Head>
+            <title>Portfolio | Portfolio</title>
+            <meta name="description" content="Passionate and creative web developer with expertise in both frontend and backend technologies" />
 
-    const [projectItems, setMenuItems] = useState(projects);
-    const [navList, setCatgeries] = useState(allNavList);
-
-    const filterItems = (category) => {
-        if(category === 'all'){
-            setMenuItems(projects);
-            return;
-        }
-        const newProjectItems = projects.filter((item) => item.category === category);
-
-        setMenuItems(newProjectItems);
-    }
-
-    return <section className={`${styles.portfolio} ${styles.section}`}>
-        <h2 className={`${styles.section_title} ${styles.text_cs}`}>Portfolio</h2>
-        <p className={styles.section_subtitle}>
-            My <span>Cases</span>
-        </p>
-
-        <List list = {navList} filterItems={filterItems} />
-
-        <div className={`${styles.portfolio_container} ${styles.container} ${styles.grid}`}>
-            <AnimatePresence initial={false}>
-                <Items projectItems = {projectItems}/>
-            </AnimatePresence>
-        </div>
-</section>
+            <meta property="og:title" content="Porfolio | Portfolio" />
+            <meta property="og:description" content="I thrive on solving complex technical challenges" />
+            <meta property="og:image" content="../assets/bgprofile.jpg" />
+        </Head>
+        <Porfolios />
+    </>
 }
 

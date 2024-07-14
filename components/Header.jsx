@@ -1,16 +1,15 @@
 import styles from "../styles/Header.module.css";
 import { useEffect, useState } from "react";
-import Link from "next/link";
+import { Link } from 'react-scroll';
 import { FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { BsSun, BsMoon } from "react-icons/bs";
-import { animateScroll } from "react-scroll";
 
 export default function Header() {
     const [showMenu, setShowMenu] = useState(false);
     const [scrollNav, setScrollNav] = useState(false);
 
     const scrollTop = () => {
-        animateScroll.scrollToTop();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     };
 
     const changNav = () => {
@@ -34,40 +33,40 @@ export default function Header() {
     };
 
     const handleLinkClick = () => {
-        setShowMenu(false); // Close the menu when a link is clicked
+        setShowMenu(false);
     };
 
     return (
         <header className={`${scrollNav ? `${styles.scroll_header}` : ""} ${styles.header}`}>
             <nav className={styles.nav}>
-                <Link href="/" className={`${styles.nav_logo} ${styles.text_cs}`}>
+                <Link to="home" smooth={true} duration={500} className={`${styles.nav_logo} ${styles.text_cs}`} onClick={handleLinkClick}>
                     N<span>A</span>T<span>H</span>A<span>N</span>
                 </Link>
                 <div className={`${showMenu ? `${styles.nav_menu} ${styles.show_menu}` : styles.nav_menu}`}>
                     <div className={styles.nav_data}>
                         <ul className={styles.nav_list}>
                             <li>
-                                <Link href="/" className={`${styles.nav_link} ${styles.text_cs}`} onClick={handleLinkClick}>
+                                <Link to="home" smooth={true} duration={500} className={`${styles.nav_link} ${styles.text_cs}`} onClick={handleLinkClick}>
                                     HOME
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/services" className={`${styles.nav_link} ${styles.text_cs}`} onClick={handleLinkClick}>
+                                <Link to="services" smooth={true} duration={500} className={`${styles.nav_link} ${styles.text_cs}`} onClick={handleLinkClick}>
                                     SERVICES
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/skills" className={`${styles.nav_link} ${styles.text_cs}`} onClick={handleLinkClick}>
+                                <Link to="skills" smooth={true} duration={500} className={`${styles.nav_link} ${styles.text_cs}`} onClick={handleLinkClick}>
                                     SKILLS
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/portfolio" className={`${styles.nav_link} ${styles.text_cs}`} onClick={handleLinkClick}>
+                                <Link to="portfolio" smooth={true} duration={500} className={`${styles.nav_link} ${styles.text_cs}`} onClick={handleLinkClick}>
                                     PORTFOLIO
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/contact" className={`${styles.nav_link} ${styles.text_cs}`} onClick={handleLinkClick}>
+                                <Link to="contact" smooth={true} duration={500} className={`${styles.nav_link} ${styles.text_cs}`} onClick={handleLinkClick}>
                                     CONTACT
                                 </Link>
                             </li>

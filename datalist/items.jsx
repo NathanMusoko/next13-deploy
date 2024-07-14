@@ -1,4 +1,4 @@
-import styles from '../styles/Portfolio.module.css'
+import styles from '../components/portfolio/stylesheets/Portfolio.module.css'
 import Image from 'next/image';
 import Link from 'next/link';
 import {FaArrowRight} from 'react-icons/fa';

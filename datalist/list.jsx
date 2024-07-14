@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import styles from '../styles/Portfolio.module.css'
+import styles from '../components/portfolio/stylesheets/Portfolio.module.css'
 
 export default function List({list, filterItems}){
     const [active, setActive] = useState(0);
